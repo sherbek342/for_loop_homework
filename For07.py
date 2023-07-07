@@ -6,4 +6,11 @@ def main(N):
     Returns:
         int: return  answer
     """
-    return
+    l = []
+    summ = 0
+    for i in range(N):
+        l.append(i)
+        if i %2==1:
+            summ = summ +i
+    return summ
+print(main(N=12))

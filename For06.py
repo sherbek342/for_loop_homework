@@ -7,4 +7,10 @@ def main(A,B):
     Returns:
         int: return  answer
     """
-    return
+    l = []
+    summ = 0
+    for i in range(A,B):
+        l.append(i)
+        summ = summ +i
+    return summ
+print(main(A=3,B=6))
